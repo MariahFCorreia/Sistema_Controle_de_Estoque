@@ -2,7 +2,7 @@
 let dados = {
     usuarios: {
         "admin": {
-            senha: "8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918", // sha256 de "admin123"
+            senha: "Admin1234", // sha256 de "admin123"
             nivelAcesso: "admin",
             criadoEm: new Date().toISOString()
         }
