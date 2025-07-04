@@ -1,0 +1,15 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "pwa-chrome",  // Tipo correto para o debugger atualizado
+      "request": "launch",
+      "name": "Depurar com Chrome",
+      "url": "http://localhost:5500",
+      "webRoot": "${workspaceFolder}/public",
+      "skipFiles": [
+        "**/node_modules/**"
+      ]
+    }
+  ]
+}
